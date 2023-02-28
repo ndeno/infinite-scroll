@@ -41,8 +41,6 @@
   color: #888;
 }
 
-/* The entire styling is totally optional */
-
 @use url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 * {

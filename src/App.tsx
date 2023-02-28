@@ -41,6 +41,7 @@ const App = () => {
   const [hasMore, setHasMore] = React.useState(true);
   const [pages, setPages] = React.useState(0);
   const observer = React.useRef<IntersectionObserver>();
+  
 
   React.useEffect(() => {
     updateItems();
